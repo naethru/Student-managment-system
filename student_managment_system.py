@@ -35,3 +35,7 @@ while True:
     display_students()
   else:
     display_students()
+  leave = input("would you like to leave this program(yes/no)")
+  if leave == "yes":
+    break
+  
