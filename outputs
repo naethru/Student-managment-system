@@ -1,0 +1,91 @@
+RUN 1
+
+What is the students ID? 101
+What is the student age? 12
+what is the students name? Alice
+student added successfully!
+do you wish to remove any students(yes/no)? no
+Name: Alice | ID: 101 | Age: 12
+would you like to leave this program(yes/no)? yes
+
+
+RUN 2
+
+What is the students ID? 102
+What is the student age? 13
+what is the students name? Bob
+student added successfully!
+do you wish to remove any students(yes/no)? yes
+enter the ID of the student you wish to remove 102
+student has been removed
+No students currently in the system.
+
+would you like to leave this program(yes/no)? yes
+
+
+RUN 3
+
+What is the students ID? 103
+What is the student age? 12
+what is the students name? Charlie
+student added successfully!
+do you wish to remove any students(yes/no)? yes
+enter the ID of the student you wish to remove 999
+ERROR, no student with this id was found
+Name: Charlie | ID: 103 | Age: 12
+would you like to leave this program(yes/no)? yes
+
+
+RUN 4
+
+What is the students ID? 104
+What is the student age? 12
+what is the students name? David
+student added successfully!
+do you wish to remove any students(yes/no)? no
+Name: David | ID: 104 | Age: 12
+would you like to leave this program(yes/no)? no
+
+What is the students ID? 105
+What is the student age? 13
+what is the students name? Emma
+student added successfully!
+do you wish to remove any students(yes/no)? yes
+enter the ID of the student you wish to remove 105
+ERROR, no student with this id was found
+student has been removed
+Name: David | ID: 104 | Age: 12
+would you like to leave this program(yes/no)? yes
+
+
+RUN 5
+
+What is the students ID? 201
+What is the student age? 12
+what is the students name? Alex
+student added successfully!
+do you wish to remove any students(yes/no)? no
+Name: Alex | ID: 201 | Age: 12
+would you like to leave this program(yes/no)? no
+
+What is the students ID? 202
+What is the student age? 13
+what is the students name? Ben
+student added successfully!
+do you wish to remove any students(yes/no)? no
+Name: Alex | ID: 201 | Age: 12
+Name: Ben | ID: 202 | Age: 13
+would you like to leave this program(yes/no)? no
+
+What is the students ID? 203
+What is the student age? 14
+what is the students name? Cara
+student added successfully!
+do you wish to remove any students(yes/no)? yes
+enter the ID of the student you wish to remove 203
+ERROR, no student with this id was found
+ERROR, no student with this id was found
+student has been removed
+Name: Alex | ID: 201 | Age: 12
+Name: Ben | ID: 202 | Age: 13
+would you like to leave this program(yes/no)? yes
