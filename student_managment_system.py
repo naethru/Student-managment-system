@@ -1,3 +1,5 @@
+students = []
+
 def add_student():
   student_ID = input("What is the students ID?")
   student_age = input("What is the student age?")
@@ -17,11 +19,19 @@ def remove_student():
       students.remove(student)
       print("student has been removed")
       return
+    else:
+       print("ERROR, no student with this id was found")
+def display_students():
+  if not students:
+      print("No students currently in the system.\n")
+      return
+  for student in students:
+    print(f"Name: {student['name']} | ID: {student['id']} | Age: {student['age']}")
 while True:
   add_student()
-  ask = input("do you wish to remove any students?")
+  ask = input("do you wish to remove any students(yes/no)?")
   if ask == "yes":
     remove_student()
-    print(students)
+    display_students()
   else:
-    print(students)
+    display_students()
